@@ -1,0 +1,56 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gantari', sans-serif;
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol,
+li {
+    // list-style: none;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: space-around;
+
+    flex-direction: column;
+    margin: auto;
+    outline: 1px solid tomato;
+    max-width: 768px;
+    height: 900px;
+    padding-left: 90px;
+    padding-right: 60px;
+    padding-top: 80px;
+}
